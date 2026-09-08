@@ -18,6 +18,7 @@ UPLOAD_SCALE = os.environ.get("UPLOAD_SCALE", 1)
 FETCH_LIMIT = os.environ.get("FETCH_LIMIT", "7d")
 PLOT_FONT = os.environ.get("FONT", ",12")
 PLOT_RESOLUTION = os.environ.get("RESOLUTION", "1280,800")
+IPAPI_KEY = os.environ.get("IPAPI_KEY", None)
 
 # commandline parser
 p = argparse.ArgumentParser()
